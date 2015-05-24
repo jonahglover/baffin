@@ -1,0 +1,7 @@
+setup.py
+baffin/__init__.py
+baffin.egg-info/PKG-INFO
+baffin.egg-info/SOURCES.txt
+baffin.egg-info/dependency_links.txt
+baffin.egg-info/requires.txt
+baffin.egg-info/top_level.txt
