@@ -15,17 +15,19 @@ class Algorithm(object):
     else:
       self.notImplementedException()
 
-    # read data
+    # TODO: move this into a service
     print("reading data...")
     self.readData(options["filename"])
     print("partitioning data...")
     self.partitionData(options["ratio"])
-    print("data processing complete!")
+    print("data processing complete!"
 
-  def classify(self):
+  def train(self):
     self.notImplementedException()
 
   def readData(self, filename):
+    # TODO it would be nice to have an actual datatype rather than just a vector
+    # maybe something like "Measurement"
     self.data = io.loadDataset(filename)
 
   def partitionData(self, ratio):
