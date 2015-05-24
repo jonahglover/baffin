@@ -6,4 +6,4 @@ class NaiveBayes(Algorithm):
     Algorithm.__init__(self, 0)
 
   def classify(self):
-    print "WOO"
+    print("lol idk, my bff bayes")

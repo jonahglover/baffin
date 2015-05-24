@@ -1,1 +1,1 @@
-__all__ = ["naiveBayes"]
+__all__ = ["naive_bayes", "test"]
