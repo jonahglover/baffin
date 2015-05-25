@@ -1,8 +1,6 @@
 from baffin.algorithm import *
 
-nb = algorithm.NaiveBayes({
-  "filename" : "/Users/jonah/Projects/baffin/test/pima.csv",
-  "ratio"    : .67
-})
-
+nb = algorithm.NaiveBayes()
+nb.loadMeasurements("./pima.csv")
 nb.train()
+nb.predict()
