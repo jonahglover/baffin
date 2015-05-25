@@ -1,3 +1,4 @@
 #Baffin
 
-Baffin is a command line tool for naive bayes classification
+So far it's just Yet Another Naive Bayes Classifier in Python
+maybe someday it'll be more ...
